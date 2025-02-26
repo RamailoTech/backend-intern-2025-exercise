@@ -55,6 +55,26 @@ Build a web application that allows users to create, read, update, and delete (C
    - Add pagination or infinite scrolling for the list of blog posts.
 ---
 
+
+## **Dockerization:**
+
+1. **Create a Dockerfile:**
+   - Write a `Dockerfile`.
+     - **Backend Dockerfile**: Set up the backend environment (install dependencies, expose ports, etc.).
+   
+2. **Create a Docker Compose File:**
+   - Use `docker-compose.yml` to define services for the backend and database.
+     - Link the backend and database services.
+     - Set up a database service (e.g., SQLite or PostgreSQL).
+
+3. **Dockerize the Application:**
+   - Build the Docker images and run the services with `docker-compose`.
+   - Ensure that all components work together inside containers.
+
+4. **Test Dockerized Application:**
+   - Test the application running inside containers to verify it works as expected.
+---
+
 ## **Bonus (if time permits):**
 
 1. **Database Relationships:**
